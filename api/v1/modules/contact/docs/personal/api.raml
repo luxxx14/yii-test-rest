@@ -1,0 +1,39 @@
+description: "Справочник личных контактов"
+get:
+    securedBy: [Auth]
+    description: "Список контактов"
+    is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/all.raml
+    responses:
+        200:
+            body:
+                application/json:
+                    example: !include example/all-response-body.json
+post:
+    securedBy: [Auth]
+    description: "Добавить контакт"
+    is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/create.raml
+    body:
+        application/json:
+            example: !include example/create-request-body.json
+
+/{id}:
+    get:
+        securedBy: [Auth]
+        description: "Вернуть контакт"
+        is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/one.raml
+        responses:
+            200:
+                body:
+                    application/json:
+                        example: !include example/one-response-body.json
+    put:
+        securedBy: [Auth]
+        description: "Изменить контакт"
+        is: !include /../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/update.raml
+        body:
+            application/json:
+                example: !include example/update-request-body.json
+    delete:
+        securedBy: [Auth]
+        description: "Удалить контакт"
+        is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/delete.raml

@@ -1,0 +1,39 @@
+description: "Почта"
+get:
+    queryParameters:
+        kind:
+            description: "Входящие/Исходяшие (inbox/outbox)"
+            type: string
+        contact:
+            description: "Почта собеседника"
+            type: string
+    securedBy: [Auth]
+    description: "Вернуть список сообщений"
+    is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/all-with-search.raml
+    responses:
+        200:
+            body:
+                application/json:
+                    example: !include example/all-response-body.json
+post:
+    securedBy: [Auth]
+    description: "Отправить сообщение"
+    is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/create.raml
+    body:
+        application/json:
+            example: !include example/create-request-body.json
+
+/{id}:
+    get:
+        securedBy: [Auth]
+        description: "Вернуть сообщение"
+        is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/one.raml
+        responses:
+            200:
+                body:
+                    application/json:
+                        example: !include example/one-response-body.json
+    delete:
+        securedBy: [Auth]
+        description: "Удалить сообщение"
+        is: !include ../../../../../../vendor/yii2bundle/yii2-rest/src/domain/docs/is/delete.raml

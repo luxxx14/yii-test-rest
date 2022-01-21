@@ -1,0 +1,40 @@
+{
+	"pagination": {
+		"page": 0,
+		"pageCount": 1,
+		"pageSize": 50,
+		"totalCount": 2,
+		"limit": 50,
+		"offset": 0
+	},
+	"collection": [
+		{
+			"id": 38,
+			"kind": "outer",
+			"reply_from": "",
+			"from": "admin@yuwert.kz",
+			"to": "tester1@yuert.kz",
+			"copy_to": null,
+			"subject": "subject admin > tester1 (autotest)",
+			"content": "content admin > tester1 (autotest)",
+			"status": 1,
+			"created_at": "2019-02-22 17:25:10",
+			"updated_at": "2019-02-22 17:25:10",
+			"attachments": null
+		},
+		{
+			"id": 39,
+			"kind": "outer",
+			"reply_from": "",
+			"from": "tester1@yuwert.kz",
+			"to": "admin@yuert.kz",
+			"copy_to": null,
+			"subject": "subject tester1 > admin (autotest)",
+			"content": "content tester1 > admin (autotest)",
+			"status": 1,
+			"created_at": "2019-02-22 17:25:10",
+			"updated_at": "2019-02-22 17:25:10",
+			"attachments": null
+		}
+	]
+}

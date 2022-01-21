@@ -1,0 +1,11 @@
+{
+	"pagination": {
+		"page": 0,
+		"pageCount": 0,
+		"pageSize": 20,
+		"totalCount": 0,
+		"limit": 20,
+		"offset": 0
+	},
+	"collection": []
+}

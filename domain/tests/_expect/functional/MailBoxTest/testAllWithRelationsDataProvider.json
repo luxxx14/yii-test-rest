@@ -1,0 +1,324 @@
+{
+	"pagination": {
+		"page": 0,
+		"pageCount": 1,
+		"pageSize": 20,
+		"totalCount": 6,
+		"limit": 20,
+		"offset": 0
+	},
+	"collection": [
+		{
+			"id": 1,
+			"domain_id": 1,
+			"person_id": 1,
+			"email": "admin@yuwert.kz",
+			"status": 1,
+			"created_at": "2019-02-22 16:53:05",
+			"updated_at": "2019-02-22 16:53:05",
+			"domain": {
+				"id": 1,
+				"company_id": 1,
+				"domain": "yuwert.kz",
+				"host": "127.0.0.1",
+				"port": 435,
+				"status": 1,
+				"created_at": "2019-02-22 16:53:05",
+				"updated_at": "2019-02-22 16:53:05",
+				"company": {
+					"id": 1,
+					"code": 111,
+					"name": "Yuwert IT",
+					"status": 1,
+					"created_at": "2019-02-22 16:53:05",
+					"updated_at": "2019-02-22 16:53:05",
+					"domains": null
+				}
+			},
+			"person": {
+				"id": 1,
+				"first_name": "Admin 1",
+				"last_name": "Root",
+				"middle_name": null,
+				"email": "admin@yuwert.kz",
+				"phone": "77771111111",
+				"birthday": "2018-01-07",
+				"worker": null,
+				"user": {
+					"id": 1,
+					"login": "admin",
+					"status": 0,
+					"roles": null,
+					"token": null,
+					"created_at": null,
+					"person_id": 1,
+					"company_id": 1,
+					"security": null,
+					"person": null,
+					"company": null,
+					"assignments": null
+				}
+			}
+		},
+		{
+			"id": 2,
+			"domain_id": 1,
+			"person_id": 2,
+			"email": "tester1@yuwert.kz",
+			"status": 1,
+			"created_at": "2019-02-22 16:53:05",
+			"updated_at": "2019-02-22 16:53:05",
+			"domain": {
+				"id": 1,
+				"company_id": 1,
+				"domain": "yuwert.kz",
+				"host": "127.0.0.1",
+				"port": 435,
+				"status": 1,
+				"created_at": "2019-02-22 16:53:05",
+				"updated_at": "2019-02-22 16:53:05",
+				"company": {
+					"id": 1,
+					"code": 111,
+					"name": "Yuwert IT",
+					"status": 1,
+					"created_at": "2019-02-22 16:53:05",
+					"updated_at": "2019-02-22 16:53:05",
+					"domains": null
+				}
+			},
+			"person": {
+				"id": 2,
+				"first_name": "Tester 1",
+				"last_name": "Tester",
+				"middle_name": null,
+				"email": "tester1@yuwert.kz",
+				"phone": "76669109296",
+				"birthday": "2018-01-07",
+				"worker": null,
+				"user": {
+					"id": 2,
+					"login": "tester1",
+					"status": 0,
+					"roles": null,
+					"token": null,
+					"created_at": null,
+					"person_id": 2,
+					"company_id": 1,
+					"security": null,
+					"person": null,
+					"company": null,
+					"assignments": null
+				}
+			}
+		},
+		{
+			"id": 3,
+			"domain_id": 1,
+			"person_id": 3,
+			"email": "tester2@yuwert.kz",
+			"status": 1,
+			"created_at": "2019-02-22 16:53:05",
+			"updated_at": "2019-02-22 16:53:05",
+			"domain": {
+				"id": 1,
+				"company_id": 1,
+				"domain": "yuwert.kz",
+				"host": "127.0.0.1",
+				"port": 435,
+				"status": 1,
+				"created_at": "2019-02-22 16:53:05",
+				"updated_at": "2019-02-22 16:53:05",
+				"company": {
+					"id": 1,
+					"code": 111,
+					"name": "Yuwert IT",
+					"status": 1,
+					"created_at": "2019-02-22 16:53:05",
+					"updated_at": "2019-02-22 16:53:05",
+					"domains": null
+				}
+			},
+			"person": {
+				"id": 3,
+				"first_name": "Tester 2",
+				"last_name": "Tester",
+				"middle_name": null,
+				"email": "tester2@yuwert.kz",
+				"phone": "77771111122",
+				"birthday": "2018-01-07",
+				"worker": null,
+				"user": {
+					"id": 3,
+					"login": "tester2",
+					"status": 0,
+					"roles": null,
+					"token": null,
+					"created_at": null,
+					"person_id": 3,
+					"company_id": 1,
+					"security": null,
+					"person": null,
+					"company": null,
+					"assignments": null
+				}
+			}
+		},
+		{
+			"id": 4,
+			"domain_id": 1,
+			"person_id": 4,
+			"email": "reporter1@yuwert.kz",
+			"status": 1,
+			"created_at": "2019-02-22 16:53:05",
+			"updated_at": "2019-02-22 16:53:05",
+			"domain": {
+				"id": 1,
+				"company_id": 1,
+				"domain": "yuwert.kz",
+				"host": "127.0.0.1",
+				"port": 435,
+				"status": 1,
+				"created_at": "2019-02-22 16:53:05",
+				"updated_at": "2019-02-22 16:53:05",
+				"company": {
+					"id": 1,
+					"code": 111,
+					"name": "Yuwert IT",
+					"status": 1,
+					"created_at": "2019-02-22 16:53:05",
+					"updated_at": "2019-02-22 16:53:05",
+					"domains": null
+				}
+			},
+			"person": {
+				"id": 4,
+				"first_name": "Reporter 1",
+				"last_name": "News",
+				"middle_name": null,
+				"email": "reporter1@yuwert.kz",
+				"phone": "77771111131",
+				"birthday": "2018-01-07",
+				"worker": null,
+				"user": {
+					"id": 4,
+					"login": "reporter1",
+					"status": 0,
+					"roles": null,
+					"token": null,
+					"created_at": null,
+					"person_id": 4,
+					"company_id": 1,
+					"security": null,
+					"person": null,
+					"company": null,
+					"assignments": null
+				}
+			}
+		},
+		{
+			"id": 5,
+			"domain_id": 1,
+			"person_id": 5,
+			"email": "reporter2@yuwert.kz",
+			"status": 1,
+			"created_at": "2019-02-22 16:53:05",
+			"updated_at": "2019-02-22 16:53:05",
+			"domain": {
+				"id": 1,
+				"company_id": 1,
+				"domain": "yuwert.kz",
+				"host": "127.0.0.1",
+				"port": 435,
+				"status": 1,
+				"created_at": "2019-02-22 16:53:05",
+				"updated_at": "2019-02-22 16:53:05",
+				"company": {
+					"id": 1,
+					"code": 111,
+					"name": "Yuwert IT",
+					"status": 1,
+					"created_at": "2019-02-22 16:53:05",
+					"updated_at": "2019-02-22 16:53:05",
+					"domains": null
+				}
+			},
+			"person": {
+				"id": 5,
+				"first_name": "Reporter 2",
+				"last_name": "News",
+				"middle_name": null,
+				"email": "reporter2@yuwert.kz",
+				"phone": "77771111132",
+				"birthday": "2018-01-07",
+				"worker": null,
+				"user": {
+					"id": 5,
+					"login": "reporter2",
+					"status": 0,
+					"roles": null,
+					"token": null,
+					"created_at": null,
+					"person_id": 5,
+					"company_id": 1,
+					"security": null,
+					"person": null,
+					"company": null,
+					"assignments": null
+				}
+			}
+		},
+		{
+			"id": 6,
+			"domain_id": 2,
+			"person_id": 1,
+			"email": "admin@ttc.kz",
+			"status": 1,
+			"created_at": "2019-02-22 16:53:05",
+			"updated_at": "2019-02-22 16:53:05",
+			"domain": {
+				"id": 2,
+				"company_id": 2,
+				"domain": "ttc.kz",
+				"host": "127.0.0.1",
+				"port": 435,
+				"status": 1,
+				"created_at": "2019-02-22 16:53:05",
+				"updated_at": "2019-02-22 16:53:05",
+				"company": {
+					"id": 2,
+					"code": 222,
+					"name": "TTC",
+					"status": 1,
+					"created_at": "2018-12-09 21:35:38",
+					"updated_at": "2019-02-22 16:53:05",
+					"domains": null
+				}
+			},
+			"person": {
+				"id": 1,
+				"first_name": "Admin 1",
+				"last_name": "Root",
+				"middle_name": null,
+				"email": "admin@yuwert.kz",
+				"phone": "77771111111",
+				"birthday": "2018-01-07",
+				"worker": null,
+				"user": {
+					"id": 1,
+					"login": "admin",
+					"status": 0,
+					"roles": null,
+					"token": null,
+					"created_at": null,
+					"person_id": 1,
+					"company_id": 1,
+					"security": null,
+					"person": null,
+					"company": null,
+					"assignments": null
+				}
+			}
+		}
+	]
+}

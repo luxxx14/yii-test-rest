@@ -1,0 +1,75 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=eXG1RwDNFfzg2IcSwZZsg0nxaqQC0As81fHQAypJ/ZY=;
+ b=cfrWguchYH052OqIaeznEEvshMhQ547BaJpoWpr41Z1B1RlZGeVZCyaasu3lKuy0dgaO7CcX6tA222OmfS9bj7whtyuUu1eQgUSOnC/T5yozRvJERpRdDHU9Liwl6T8F/mSfHQv2NVg5rdzuDlGKKEb121jeAqfmOMOO6dpW2Mg9aYEqrYHzg8yjCjEWoFPnKTM3Fc2zkFdlNSzwZc4nhHiiwqfLjYqGAYuLThC0Z1i1Wp8WHdy8bQa6bjpwVfSMIAwaYWDhKvdBwQ8IwjxoGwsGGr+6x2DRQw26rAVj6m0sjwPuU3yzBfDLcGI5ax7eSnI1H3u4RvQJz/9gJ2xc8w==
+Received: from HE1EUR01FT003.eop-EUR01.prod.protection.outlook.com
+ (10.152.0.60) by HE1EUR01HT062.eop-EUR01.prod.protection.outlook.com
+ (10.152.0.227) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.2008.13; Fri, 21 Jun
+ 2019 07:00:04 +0000
+Received: from VI1P189MB0381.EURP189.PROD.OUTLOOK.COM (10.152.0.53) by
+ HE1EUR01FT003.mail.protection.outlook.com (10.152.0.89) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.2008.13 via Frontend Transport; Fri, 21 Jun 2019 07:00:04 +0000
+Received: from VI1P189MB0381.EURP189.PROD.OUTLOOK.COM
+ ([fe80::bd5d:3af7:b2e4:7676]) by VI1P189MB0381.EURP189.PROD.OUTLOOK.COM
+ ([fe80::bd5d:3af7:b2e4:7676%6]) with mapi id 15.20.1987.014; Fri, 21 Jun 2019
+ 07:00:03 +0000
+From: <TEMPLATE_FROM_ADDRESS>
+To: "TEMPLATE_TO_ADDRESS" <TEMPLATE_TO_ADDRESS>
+Subject: TEMPLATE_SUBJECT
+Thread-Topic: TEMPLATE_SUBJECT
+Thread-Index: AQHVJ/7ySzrwMewdS0ynFSDxKPofkw==
+Date: Fri, 21 Jun 2019 07:00:03 +0000
+Message-ID: <VI1P189MB0381AD4888EC3EC99A5BFA8ABBE70@VI1P189MB0381.EURP189.PROD.OUTLOOK.COM>
+Accept-Language: ru-RU, en-US
+Content-Language: ru-RU
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-incomingtopheadermarker: OriginalChecksum:F6F96ADED16EAC1B6A23E80BF79CA70DFF4CFA4BBF9653227BC6652683F117CC;UpperCasedChecksum:DAC918AEFF168074B8FE153512BB98ACC908616F3B8756DCBF7466FC899AD26A;SizeAsReceived:6581;Count:41
+x-ms-exchange-messagesentrepresentingtype: 1
+x-tmn: [/hI3yE3ecLutpbiP/u8gvW4YeW0SUDHr]
+x-ms-publictraffictype: Email
+x-incomingheadercount: 41
+x-eopattributedmessage: 0
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:(2390118)(5050001)(7020095)(20181119110)(201702061078)(5061506573)(5061507331)(1603103135)(2017031320274)(2017031322404)(2017031323274)(2017031324274)(1601125500)(1603101475)(1701031045);SRVR:HE1EUR01HT062;
+x-ms-traffictypediagnostic: HE1EUR01HT062:
+x-microsoft-antispam-message-info: kLCaqPu4kYkcvGQ4O0yTosfW7JBNXMkaATka4LgmUHdcNeCQypgsf+ECVw2bCS79
+Content-Type: multipart/alternative;
+	boundary="_000_VI1P189MB0381AD4888EC3EC99A5BFA8ABBE70VI1P189MB0381EURP_"
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 680253cb-4a57-44d5-a93d-08d6f616160e
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Jun 2019 07:00:03.7927
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Internet
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HE1EUR01HT062
+MIME-Version: 1.0
+
+--_000_VI1P189MB0381AD4888EC3EC99A5BFA8ABBE70VI1P189MB0381EURP_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+TEMPLATE_BODY
+
+--_000_VI1P189MB0381AD4888EC3EC99A5BFA8ABBE70VI1P189MB0381EURP_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Helvetica, sans-serif; font-size: 12pt;=
+ color: rgb(0, 0, 0);">
+TEMPLATE_BODY
+</div>
+</body>
+</html>
+
+--_000_VI1P189MB0381AD4888EC3EC99A5BFA8ABBE70VI1P189MB0381EURP_--

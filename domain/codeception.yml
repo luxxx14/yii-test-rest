@@ -1,0 +1,13 @@
+paths:
+    tests: tests
+    log: tests/_output
+    data: tests/_data
+    helpers: tests/_support
+settings:
+    bootstrap: _bootstrap.php
+    colors: false
+    memory_limit: 1024M
+modules:
+    config:
+        Yii2:
+            configFile: '../vendor/yii2tool/yii2-test/src/base/_config/main.php'

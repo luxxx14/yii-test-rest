@@ -1,0 +1,17 @@
+#!/usr/bin/env php
+<?php
+
+use yii2tool\init\domain\helpers\Init;
+
+$name = 'console';
+$path = '.';
+
+@include_once(__DIR__ . '/' . $path . '/vendor/yii2rails/yii2-app/src/App.php');
+
+if(!class_exists(App::class)) {
+	die('Run composer install');
+}
+
+App::init($name);
+
+Init::run();

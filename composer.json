@@ -1,0 +1,117 @@
+{
+	"name": "project/yumail",
+	"description": "Yumail",
+	"keywords": [
+		"application",
+		"web"
+	],
+	"type": "project",
+	"minimum-stability": "stable",
+	"require": {
+		"yii2rails/yii2-app": "0.18.*",
+		"yii2rails/yii2-domain": "0.48.*",
+		"yii2rails/yii2-extension": "0.43.*",
+		"yii2bundle/yii2-account": "0.15.*",
+		"yii2bundle/yii2-application-template": "0.13.*",
+		"yii2bundle/yii2-dashboard": "0.3.*",
+		"yii2bundle/yii2-db": "0.19.*",
+		"yii2bundle/yii2-error": "0.3.*",
+		"yii2bundle/yii2-geo": "0.7.*",
+		"yii2bundle/yii2-lang": "0.10.*",
+		"yii2bundle/yii2-navigation": "0.4.*",
+		"yii2bundle/yii2-notify": "0.18.*",
+		"yii2bundle/yii2-rbac": "0.9.*",
+		"yii2bundle/yii2-rest": "0.22.*",
+		"yii2bundle/yii2-model": "0.4.*",
+		"phpbundle/rest": "dev-master",
+		"yubundle/yii2-account": "0.61.*",
+		"yubundle/yii2-reference": "0.20.*",
+		"yubundle/yii2-user": "0.33.*",
+		"yubundle/yii2-common": "0.31.*",
+		"yubundle/yii2-storage": "0.23.*",
+		"yubundle/yii2-staff": "0.32.*",
+		"2amigos/yii2-tinymce-widget": "~1.1",
+		"kartik-v/yii2-datecontrol": "dev-master",
+		"alex-lyanik/yii2-viewlog": "dev-master",
+		"ext-json": "*",
+		"ext-curl": "*",
+		"php-imap/php-imap": "^3.0"
+	},
+	"require-dev": {
+		"yii2tool/yii2-test": "0.27.*",
+		"yii2tool/yii2-guide": "0.4.*",
+		"yii2tool/yii2-vendor": "0.11.*",
+		"yii2tool/yii2-restclient": "0.12.*",
+		"yii2team/guide-team": "0.3.*"
+	},
+	"config": {
+		"secure-http": false,
+		"process-timeout": 1800
+	},
+	"extra": {
+		"installer-types": [
+			"bower-asset",
+			"npm-asset"
+		],
+		"installer-paths": {
+			"vendor/{$vendor}/{$name}/": [
+				"type:bower-asset",
+				"type:npm-asset"
+			]
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-application-template.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-db.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-notify.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-rest.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-account.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-lang.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-reference.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-notify.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-user.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-common.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-storage.git"
+		},
+		{
+			"type": "git",
+			"url": "http://git.yuwert.kz/yubundle/yii2-staff.git"
+		}
+	]
+}
